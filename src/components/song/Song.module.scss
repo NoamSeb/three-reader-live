@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,100&display=swap');
+
+.songInfo{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    cursor:pointer;
+    opacity:0.5;
+    transition: opacity 0.25s;
+    font-family: 'DM Sans',sans-serif;
+    &:hover{
+        opacity: 1;
+    }
+}
+.artistName{
+    font-weight: 100;
+    font-style: italic;
+}
+.title{
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

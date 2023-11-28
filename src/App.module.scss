@@ -1,0 +1,12 @@
+body{
+  color:white;
+}
+.songs {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
